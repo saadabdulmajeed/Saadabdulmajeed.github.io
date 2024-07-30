@@ -1,0 +1,169 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Header Styling */
+header {
+    background: #fff;
+    color: #333;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #e0e0e0 2px solid;
+}
+
+header a {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 10px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('image.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 3em;
+    color: #111;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #444;
+}
+
+.hero .container {
+    background: rgba(255, 255, 255, 0.7); /* Light overlay for text readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Services Section */
+#services {
+    background: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.service {
+    margin: 20px 0;
+}
+
+/* About Us Section */
+#about {
+    background: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.testimonial-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #333;
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+}
+
+/* Highlights Section */
+#highlights {
+    background: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#highlights ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#highlights li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
